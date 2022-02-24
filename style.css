@@ -1,0 +1,73 @@
+.place img{
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    
+    }
+    .place{
+    h;
+    }
+
+
+
+
+
+table{
+    color: black;
+}
+.vi{
+    background-color: blueviolet;
+    
+}
+.mi{
+    background-color: cornflowerblue;
+}
+.bi{
+    background-color: darkcyan;
+}
+.ci{
+    background-color: mediumaquamarine;
+}
+.ti{
+    background-color: palegoldenrod;
+}
+
+.si{
+    background-color: khaki;
+}
+.ni{
+    background-color: navajowhite;
+}
+.ta{
+    background-color:salmon;
+}
+.li{
+    background-color:lightpink;
+}
+.fi{
+    background-color:purple;
+}
+table{
+    border-spacing: 5px; 
+}
+td{
+    font-size: 0.9vw;
+    height: 1vh;
+    text-align: center;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media screen and (max-width:720px) {
+    table{
+        width: 80%;
+        align-self: center;
+    }
+    td{
+        font-size: 0.6vw;
+    }
+}
